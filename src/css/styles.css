@@ -93,6 +93,7 @@
   footer {
     position: relative;
     bottom: 0;
+    width:100%;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     padding: 1em;
@@ -182,8 +183,13 @@
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    position:relative;
+    top:0.05em;
+    margin-left: 20px;
+    margin-top:20px;
+
   }
-  
+
   .previous-button:hover,
   .next-button:hover {
     background-color: darkblue;
@@ -240,9 +246,6 @@
     margin-top: 5px;
   }
   
-  iframe {
-    background: white;
-  }
   
   .profile {
     width: 200px;
