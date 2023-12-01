@@ -152,17 +152,20 @@
   button.submit {
     display: block;
     width: 50%;
-    padding: 8px;
+    padding: 7px;
     background-color: darkblue;
     color: #fff;
     border: #fff;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition:0.3s ease;
   }
   
   button.submit:hover {
     background-color: #45a049;
+  }
+  .contact{
+    margin-top:8px;
   }
   
   .container {
@@ -173,8 +176,8 @@
   .next-btn {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: white;
-    color: darkblue;
+    background-color:darkblue;
+    color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -237,7 +240,7 @@
     margin-top: 5px;
   }
   
-  frame {
+  iframe {
     background: white;
   }
   
